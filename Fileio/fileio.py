@@ -25,16 +25,16 @@
 # for line in lines:
 #     print(line, end='')
 
-# with open("C:\\Users\\dlj\\Documents\\python-programming-masterclass\\Fileio\\sample.txt", 'r') as jabber: # with closes a file automatically
-#     lines = jabber.readlines()
-# print(lines)
+with open("C:\\Users\\dlj\\Documents\\python-programming-masterclass\\Fileio\\sample.txt", 'r') as jabber: # with closes a file automatically
+    lines = jabber.readlines()
+print(lines)
 
 # for line in lines[::-1]:
 #     print(line, end='')
 
-with open("C:\\Users\\dlj\\Documents\\python-programming-masterclass\\Fileio\\sample.txt", 'r') as jabber: # with closes a file automatically
-    lines = jabber.read()
-print(lines)
+# with open("C:\\Users\\dlj\\Documents\\python-programming-masterclass\\Fileio\\sample.txt", 'r') as jabber: # with closes a file automatically
+#     lines = jabber.read()
+# print(lines)
 
-for line in lines[::-1]:
-    print(line, end='')
+# for line in lines[::-1]:
+#     print(line, end='')
