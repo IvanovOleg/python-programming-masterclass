@@ -65,7 +65,7 @@ if __name__ == '__main__':
     steph.withdraw(200)
     steph.show_transactions()
     steph.show_balance()
-    print(steph.__dict__))
+    print(steph.__dict__)
 
 # Mini challenge: Make initial money amount appear in the show transactions list
 # only class itself sould me changed
